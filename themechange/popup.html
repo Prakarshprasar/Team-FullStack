@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            width: 180px;
+          padding: 5px 10px 10px 10px;
+            text-align: center;
+        }
+        .btncarl{
+            padding-right: 3px;
+            display: flex;
+            gap: 5px;
+            justify-content: start;
+            align-items: center;
+            width: 90px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(200, 221, 226);
+        }
+        .btncarl>p{
+            font-size: 15px;
+            font-weight: 550;
+        }
+        .btncarr{
+            padding-left: 3px;
+            display: none;
+            justify-content: end;
+            gap: 5px;
+            align-items: center;
+            width: 90px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(218, 218, 140);
+            
+        }
+        .btncarr>p{
+            font-size: 15px;
+            font-weight: 550;
+        }
+
+        .btnl{
+            border: 5px solid rgb(16, 61, 78);
+            background-color: rgb(46, 95, 114);
+            width: 40%;
+            height: 90%;
+            border-radius: 50%;
+
+        }
+        .btnr{
+            display: none;
+            background-color: rgb(160, 160, 62);
+            border: 5px solid rgb(102, 102, 33);
+            width: 40%;
+            height: 90%;
+            border-radius: 50%;
+        }
+        .btnmain{
+            width: 90px;
+            margin: auto;
+            cursor: pointer;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h2>
+      Change Theme
+    </h2>
+    <div class="btnmain">
+        <div class="btncarl">
+            <div class="btnl"></div>
+            <p>Dark</p>
+        </div>
+        <div class="btncarr">
+            <p>Light</p>
+            <div class="btnr"></div>
+            
+        </div>
+    </div>
+    
+  </body>
+</html>
+<script src="./popup.js"></script>

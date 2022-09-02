@@ -1,0 +1,17 @@
+{
+    "name": "YouTube Ad Skiper",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "YouTube Ad Skiper",
+    "content_scripts":[{
+         "js":["script.js"],
+         "run_at":"document_idle",
+         "matches":["<all_urls>"]
+        }],
+   
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+    
+}

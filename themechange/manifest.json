@@ -1,0 +1,22 @@
+{
+    "name":"ThemeChanger",
+    "description":"",
+    "version":"1.0.0",
+    "manifest_version": 2,
+    "background":{
+         "scripts":[
+            "popup.js"
+         ],
+         "persistent":true
+    },
+    "browser_action":{
+        "default_title":"ThemeChanger",
+        "default_popup":"popup.html",
+        "default_icon":"./icons/download.png"
+    },
+    "permissions":[
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
